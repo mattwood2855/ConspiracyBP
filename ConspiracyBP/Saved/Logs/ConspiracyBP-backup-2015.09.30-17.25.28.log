@@ -1,0 +1,698 @@
+﻿[2015.09.28-04.19.10:926][  0]Log file open, 09/27/15 21:19:10
+[2015.09.28-04.19.10:926][  0]LogInit:Display: Running engine for game: ConspiracyBP
+[2015.09.28-04.19.10:926][  0]LogInit:Display: RandInit(408679186) SRandInit(408679187).
+[2015.09.28-04.19.10:926][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.28-04.19.10:926][  0]LogStats: Stats thread started at 0.090084
+[2015.09.28-04.19.10:926][  0]LogInit: Version: 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.28-04.19.10:926][  0]LogInit: API Version: 2672455
+[2015.09.28-04.19.10:926][  0]LogInit: Compiled (64-bit): Sep 14 2015 04:12:03
+[2015.09.28-04.19.10:926][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.28-04.19.10:926][  0]LogInit: Build Configuration: Development
+[2015.09.28-04.19.10:926][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.09.28-04.19.10:926][  0]LogInit: Command line: 
+[2015.09.28-04.19.10:926][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.09.28-04.19.10:926][  0]LogInit: Rocket: 1
+[2015.09.28-04.19.10:937][  0]LogInit: Using libcurl 7.41.0
+[2015.09.28-04.19.10:937][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.28-04.19.10:937][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.28-04.19.10:937][  0]LogInit:  - other features:
+[2015.09.28-04.19.10:937][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.28-04.19.10:937][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.28-04.19.10:937][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.28-04.19.10:937][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.28-04.19.10:937][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.28-04.19.10:937][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.28-04.19.10:937][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.28-04.19.10:937][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.28-04.19.10:937][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.28-04.19.10:937][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.28-04.19.10:945][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.28-04.19.10:954][  0]LogInit: Object subsystem initialized
+[2015.09.28-04.19.10:963][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.28-04.19.10:963][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.28-04.19.10:971][  0]LogInit: Computer: DESKTOP-4ATUJ92
+[2015.09.28-04.19.10:971][  0]LogInit: User: Gin
+[2015.09.28-04.19.10:971][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.28-04.19.10:971][  0]LogInit: High frequency timer resolution =3.906507 MHz
+[2015.09.28-04.19.10:971][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2015.09.28-04.19.10:971][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.28-04.19.10:971][  0]LogMemory: Process Physical Memory: 54.13 MB used, 54.13 MB peak
+[2015.09.28-04.19.10:971][  0]LogMemory: Process Virtual Memory: 54.61 MB used, 54.61 MB peak
+[2015.09.28-04.19.10:971][  0]LogMemory: Physical Memory: 4404.83 MB used, 16333.51 MB total
+[2015.09.28-04.19.10:971][  0]LogMemory: Virtual Memory: 366.64 MB used, 134217728.00 MB total
+[2015.09.28-04.19.11:008][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.09.28-04.19.11:848][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.09.28-04.19.11:848][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 2 output[s]
+[2015.09.28-04.19.11:849][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.28-04.19.11:849][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8166MB of shared system memory, 0 output[s]
+[2015.09.28-04.19.11:849][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.28-04.19.11:854][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.28-04.19.11:855][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.28-04.19.11:872][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.28-04.19.11:882][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Intermediate/Shaders/WorkingDirectory/4232/).
+[2015.09.28-04.19.11:883][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Intermediate/Shaders/tmp/C38528FD4EDEB0BBCA78BDA42266BD38/'.
+[2015.09.28-04.19.11:883][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.28-04.19.13:015][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.09.28-04.19.13:022][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.28-04.19.13:028][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.28-04.19.13:034][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.28-04.19.13:040][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.28-04.19.13:045][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.28-04.19.13:049][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.28-04.19.13:052][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.28-04.19.13:056][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.28-04.19.13:061][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.28-04.19.13:065][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.28-04.19.13:069][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.28-04.19.13:070][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.09.28-04.19.13:090][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.28-04.19.13:094][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.28-04.19.13:098][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.28-04.19.13:102][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.28-04.19.13:102][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.28-04.19.13:206][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Gin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Gin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.28-04.19.13:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.28-04.19.13:406][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.28-04.19.13:419][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.28-04.19.13:631][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.28-04.19.13:635][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.28-04.19.13:766][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.28-04.19.13:766][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.28-04.19.14:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.28-04.19.14:904][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.09.28-04.19.15:082][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.28-04.19.15:366][  0]SourceControl: Info Source control is disabled
+[2015.09.28-04.19.15:379][  0]SourceControl: Info Source control is disabled
+[2015.09.28-04.19.15:397][  0]SourceControl: Info Source control is disabled
+[2015.09.28-04.19.15:410][  0]SourceControl: Info Source control is disabled
+[2015.09.28-04.19.15:587][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.15:701][  0]LogObj: 28528 objects as part of root set at end of initial load.
+[2015.09.28-04.19.15:701][  0]LogUObjectAllocator: 6068456 out of 0 bytes used by permanent object pool.
+[2015.09.28-04.19.15:765][  0]LogEngine: Initializing Engine...
+[2015.09.28-04.19.15:768][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.09.28-04.19.15:769][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.09.28-04.19.15:906][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.28-04.19.15:917][  0]LogInit: XAudio2 using 'BenQ GL2760-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.28-04.19.15:929][  0]LogInit: FAudioDevice initialized.
+[2015.09.28-04.19.15:962][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Gin/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.09.28-04.19.15:973][  0]LogInit: Texture streaming: Enabled
+[2015.09.28-04.19.15:979][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.28-04.19.15:980][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.1-2689999+++depot+UE4-Releases+4.9
+[2015.09.28-04.19.15:980][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a684ae534233ae331075eabbbaa8af98|e6bb8d4d5a9d435a86d7b177b234e642|56d7b15b-9487-41be-9c3d-347a704e9621
+[2015.09.28-04.19.15:980][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.28-04.19.16:017][  0]LogInit: Transaction tracking system initialized
+[2015.09.28-04.19.16:057][  0]BlueprintLog: New page: Editor Load
+[2015.09.28-04.19.16:817][  0]LocalizationService: Info Localization service is disabled
+[2015.09.28-04.19.17:068][  0]LogConsoleResponse:Display: 
+[2015.09.28-04.19.17:199][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.28-04.19.17:290][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/' took 0.01s
+[2015.09.28-04.19.17:290][  0]SourceControl: Info Source control is disabled
+[2015.09.28-04.19.17:291][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.9/FeaturePacks/StarterContent.upack)
+[2015.09.28-04.19.17:299][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2015.09.28-04.19.17:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2015.09.28-04.19.17:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2015.09.28-04.19.17:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2015.09.28-04.19.17:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2015.09.28-04.19.17:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2015.09.28-04.19.17:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2015.09.28-04.19.17:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2015.09.28-04.19.17:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2015.09.28-04.19.17:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2015.09.28-04.19.17:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2015.09.28-04.19.17:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2015.09.28-04.19.17:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Collapse01.uasset"
+[2015.09.28-04.19.17:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Collapse02.uasset"
+[2015.09.28-04.19.17:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2015.09.28-04.19.17:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Explosion01.uasset"
+[2015.09.28-04.19.17:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Explosion02.uasset"
+[2015.09.28-04.19.17:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2015.09.28-04.19.17:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Fire01.uasset"
+[2015.09.28-04.19.17:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2015.09.28-04.19.17:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2015.09.28-04.19.17:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2015.09.28-04.19.17:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Light01.uasset"
+[2015.09.28-04.19.17:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2015.09.28-04.19.17:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Light02.uasset"
+[2015.09.28-04.19.17:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2015.09.28-04.19.17:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Smoke01.uasset"
+[2015.09.28-04.19.17:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2015.09.28-04.19.17:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2015.09.28-04.19.17:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2015.09.28-04.19.17:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2015.09.28-04.19.17:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2015.09.28-04.19.17:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2015.09.28-04.19.17:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2015.09.28-04.19.17:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Steam01.uasset"
+[2015.09.28-04.19.17:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2015.09.28-04.19.17:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2015.09.28-04.19.17:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2015.09.28-04.19.17:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2015.09.28-04.19.17:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2015.09.28-04.19.17:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2015.09.28-04.19.17:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2015.09.28-04.19.17:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2015.09.28-04.19.17:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2015.09.28-04.19.17:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2015.09.28-04.19.17:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2015.09.28-04.19.17:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2015.09.28-04.19.17:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2015.09.28-04.19.17:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2015.09.28-04.19.17:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2015.09.28-04.19.17:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2015.09.28-04.19.17:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2015.09.28-04.19.17:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2015.09.28-04.19.17:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2015.09.28-04.19.17:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Maps/Minimal_Default.umap"
+[2015.09.28-04.19.17:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Maps/StarterMap.umap"
+[2015.09.28-04.19.17:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2015.09.28-04.19.17:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2015.09.28-04.19.17:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2015.09.28-04.19.17:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2015.09.28-04.19.17:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2015.09.28-04.19.17:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2015.09.28-04.19.17:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2015.09.28-04.19.17:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2015.09.28-04.19.17:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2015.09.28-04.19.17:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2015.09.28-04.19.17:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2015.09.28-04.19.17:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2015.09.28-04.19.17:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2015.09.28-04.19.17:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2015.09.28-04.19.17:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2015.09.28-04.19.17:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2015.09.28-04.19.17:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2015.09.28-04.19.17:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Glass.uasset"
+[2015.09.28-04.19.17:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2015.09.28-04.19.17:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2015.09.28-04.19.17:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2015.09.28-04.19.17:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2015.09.28-04.19.17:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2015.09.28-04.19.17:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2015.09.28-04.19.17:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2015.09.28-04.19.17:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2015.09.28-04.19.17:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2015.09.28-04.19.17:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2015.09.28-04.19.17:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2015.09.28-04.19.17:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2015.09.28-04.19.17:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2015.09.28-04.19.17:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2015.09.28-04.19.17:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2015.09.28-04.19.17:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2015.09.28-04.19.17:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2015.09.28-04.19.17:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2015.09.28-04.19.17:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2015.09.28-04.19.17:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2015.09.28-04.19.17:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2015.09.28-04.19.17:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2015.09.28-04.19.17:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2015.09.28-04.19.17:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2015.09.28-04.19.17:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2015.09.28-04.19.17:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2015.09.28-04.19.17:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Explosion.uasset"
+[2015.09.28-04.19.17:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Fire.uasset"
+[2015.09.28-04.19.17:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Smoke.uasset"
+[2015.09.28-04.19.17:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Sparks.uasset"
+[2015.09.28-04.19.17:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2015.09.28-04.19.17:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2015.09.28-04.19.17:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2015.09.28-04.19.17:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2015.09.28-04.19.17:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2015.09.28-04.19.17:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2015.09.28-04.19.17:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2015.09.28-04.19.17:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2015.09.28-04.19.17:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2015.09.28-04.19.17:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2015.09.28-04.19.17:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2015.09.28-04.19.17:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/MaterialSphere.uasset"
+[2015.09.28-04.19.17:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Bush.uasset"
+[2015.09.28-04.19.17:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Chair.uasset"
+[2015.09.28-04.19.17:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2015.09.28-04.19.17:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Couch.uasset"
+[2015.09.28-04.19.17:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Door.uasset"
+[2015.09.28-04.19.17:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2015.09.28-04.19.17:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2015.09.28-04.19.17:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2015.09.28-04.19.17:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2015.09.28-04.19.17:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2015.09.28-04.19.17:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2015.09.28-04.19.17:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2015.09.28-04.19.17:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Rock.uasset"
+[2015.09.28-04.19.17:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Shelf.uasset"
+[2015.09.28-04.19.17:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Stairs.uasset"
+[2015.09.28-04.19.17:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_Statue.uasset"
+[2015.09.28-04.19.17:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_TableRound.uasset"
+[2015.09.28-04.19.17:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2015.09.28-04.19.17:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2015.09.28-04.19.17:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2015.09.28-04.19.17:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2015.09.28-04.19.17:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2015.09.28-04.19.17:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2015.09.28-04.19.17:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2015.09.28-04.19.17:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2015.09.28-04.19.17:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2015.09.28-04.19.17:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2015.09.28-04.19.17:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2015.09.28-04.19.17:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2015.09.28-04.19.17:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2015.09.28-04.19.17:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2015.09.28-04.19.17:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2015.09.28-04.19.17:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2015.09.28-04.19.17:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2015.09.28-04.19.17:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2015.09.28-04.19.17:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2015.09.28-04.19.17:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2015.09.28-04.19.17:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2015.09.28-04.19.17:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2015.09.28-04.19.17:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2015.09.28-04.19.17:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2015.09.28-04.19.17:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2015.09.28-04.19.17:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2015.09.28-04.19.17:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2015.09.28-04.19.17:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2015.09.28-04.19.17:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2015.09.28-04.19.17:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2015.09.28-04.19.17:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2015.09.28-04.19.17:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2015.09.28-04.19.17:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2015.09.28-04.19.17:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2015.09.28-04.19.17:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2015.09.28-04.19.17:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2015.09.28-04.19.17:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2015.09.28-04.19.17:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2015.09.28-04.19.18:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2015.09.28-04.19.18:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2015.09.28-04.19.18:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2015.09.28-04.19.18:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2015.09.28-04.19.18:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2015.09.28-04.19.18:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2015.09.28-04.19.18:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2015.09.28-04.19.18:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2015.09.28-04.19.18:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2015.09.28-04.19.18:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2015.09.28-04.19.18:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2015.09.28-04.19.18:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2015.09.28-04.19.18:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2015.09.28-04.19.18:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2015.09.28-04.19.18:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2015.09.28-04.19.18:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2015.09.28-04.19.18:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2015.09.28-04.19.18:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2015.09.28-04.19.18:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2015.09.28-04.19.18:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2015.09.28-04.19.18:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2015.09.28-04.19.18:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2015.09.28-04.19.18:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2015.09.28-04.19.18:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2015.09.28-04.19.18:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2015.09.28-04.19.18:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2015.09.28-04.19.18:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2015.09.28-04.19.18:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2015.09.28-04.19.18:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2015.09.28-04.19.18:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2015.09.28-04.19.18:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2015.09.28-04.19.18:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2015.09.28-04.19.18:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2015.09.28-04.19.18:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Door_M.uasset"
+[2015.09.28-04.19.18:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Door_N.uasset"
+[2015.09.28-04.19.18:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2015.09.28-04.19.18:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2015.09.28-04.19.18:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2015.09.28-04.19.18:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2015.09.28-04.19.18:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2015.09.28-04.19.18:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2015.09.28-04.19.18:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2015.09.28-04.19.18:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2015.09.28-04.19.18:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2015.09.28-04.19.18:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2015.09.28-04.19.18:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2015.09.28-04.19.18:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2015.09.28-04.19.18:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2015.09.28-04.19.18:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2015.09.28-04.19.18:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2015.09.28-04.19.18:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2015.09.28-04.19.18:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2015.09.28-04.19.18:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2015.09.28-04.19.18:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2015.09.28-04.19.18:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2015.09.28-04.19.18:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2015.09.28-04.19.18:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2015.09.28-04.19.18:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2015.09.28-04.19.18:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2015.09.28-04.19.18:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2015.09.28-04.19.18:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2015.09.28-04.19.18:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2015.09.28-04.19.18:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2015.09.28-04.19.18:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2015.09.28-04.19.18:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2015.09.28-04.19.18:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2015.09.28-04.19.18:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2015.09.28-04.19.18:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2015.09.28-04.19.18:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2015.09.28-04.19.18:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2015.09.28-04.19.18:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2015.09.28-04.19.18:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2015.09.28-04.19.18:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2015.09.28-04.19.18:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2015.09.28-04.19.18:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2015.09.28-04.19.18:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2015.09.28-04.19.18:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2015.09.28-04.19.18:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2015.09.28-04.19.18:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2015.09.28-04.19.18:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2015.09.28-04.19.18:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2015.09.28-04.19.18:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2015.09.28-04.19.18:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2015.09.28-04.19.18:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2015.09.28-04.19.18:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2015.09.28-04.19.18:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2015.09.28-04.19.18:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Water_M.uasset"
+[2015.09.28-04.19.18:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Water_N.uasset"
+[2015.09.28-04.19.18:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2015.09.28-04.19.18:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2015.09.28-04.19.18:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2015.09.28-04.19.18:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2015.09.28-04.19.18:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2015.09.28-04.19.18:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2015.09.28-04.19.18:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2015.09.28-04.19.18:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2015.09.28-04.19.18:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2015.09.28-04.19.18:948][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.09.28-04.19.18:981][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2015.09.28-04.19.18:998][  0]LogSavePackage: Save=12.476108ms
+[2015.09.28-04.19.18:998][  0]LogSavePackage: Moving 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Saved/Floor_400x4002A3AFC4048649966B9812C867F1D00F2.tmp' to 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.09.28-04.19.19:001][  0]LogSavePackage: Total save time: 19.562487ms
+[2015.09.28-04.19.19:001][  0]LogSavePackage:Warning: Finished SavePackage D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.09.28-04.19.19:001][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.09.28-04.19.19:002][  0]Cmd: MAP LOAD FILE="D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.28-04.19.19:003][  0]LightingResults: New page: Lighting Build
+[2015.09.28-04.19.19:006][  0]MapCheck: New page: Map Check
+[2015.09.28-04.19.19:007][  0]LightingResults: New page: Lighting Build
+[2015.09.28-04.19.19:021][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6F1BC3CE0
+[2015.09.28-04.19.19:023][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:026][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:028][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:030][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:030][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:032][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:032][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:033][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:034][  0]LogLinker:Warning: Asset 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.28-04.19.19:834][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.09.28-04.19.19:851][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.28-04.19.19:851][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.28-04.19.19:912][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.657ms to complete.
+[2015.09.28-04.19.19:912][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.909
+[2015.09.28-04.19.20:076][  0]LogCollectionManager: Loaded 0 collections in 0.002512 seconds
+[2015.09.28-04.19.20:120][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Saved/Collections/' took 0.01s
+[2015.09.28-04.19.20:120][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Developers/Gin/Collections/' took 0.01s
+[2015.09.28-04.19.20:120][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ConspiracyBP/ConspiracyBP/Content/Collections/' took 0.01s
+[2015.09.28-04.19.20:120][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 1882 classes and 339 folders.
+[2015.09.28-04.19.20:131][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.09.28-04.19.20:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.28-04.19.20:187][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.28-04.19.20:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.28-04.19.20:220][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.28-04.19.20:225][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.28-04.19.20:251][  0]LogLoad: Full Startup: 9.84 seconds (BP compile: 0.16 seconds)
+[2015.09.28-04.19.20:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.28-04.19.20:640][  0]LogRenderer: Reallocating scene render targets to support 1368x576 (Frame:3).
+[2015.09.28-04.19.20:858][  5]LogAssetRegistry: Asset discovery search completed in 5.9645 seconds
+[2015.09.28-04.19.20:858][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.09.28-04.19.20:858][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2015.09.28-04.19.50:909][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.19.50:909][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.28-04.19.50:910][593]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 27, 2015, 2:19:50 PM)
+[2015.09.28-04.19.50:911][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.09.28-04.19.50:954][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042913s)
+[2015.09.28-04.19.50:955][593]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.09.28-04.19.50:955][593]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2015.09.28-04.19.50:955][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044697s)
+[2015.09.28-04.19.50:993][593]LogInit: XAudio2 using 'BenQ GL2760-C (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.28-04.19.50:998][593]LogInit: FAudioDevice initialized.
+[2015.09.28-04.19.51:053][593]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.28-04.19.51:066][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.09.27-21.19.51
+[2015.09.28-04.19.51:066][593]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.19.51:067][593]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.19.51:069][593]LogWorld: Bringing up level for play took: 0.007207
+[2015.09.28-04.19.51:084][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1
+[2015.09.28-04.19.51:084][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.19.58:217][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.19.58:250][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.19.58:266][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C685CAAB60
+[2015.09.28-04.20.11:440][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.11:440][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.28-04.20.11:441][589]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 27, 2015, 2:20:11 PM)
+[2015.09.28-04.20.11:441][589]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.09.28-04.20.11:472][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031147s)
+[2015.09.28-04.20.11:473][589]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.09.28-04.20.11:473][589]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2015.09.28-04.20.11:473][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032762s)
+[2015.09.28-04.20.11:505][589]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.28-04.20.11:517][589]LogInit: FAudioDevice initialized.
+[2015.09.28-04.20.11:557][589]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.28-04.20.11:572][589]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.09.27-21.20.11
+[2015.09.28-04.20.11:572][589]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.20.11:573][589]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.20.11:573][589]LogWorld: Bringing up level for play took: 0.012857
+[2015.09.28-04.20.11:577][589]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.508
+[2015.09.28-04.20.11:577][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.12:529][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.12:557][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.12:585][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6D1C30900
+[2015.09.28-04.20.32:139][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.32:139][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.09.28-04.20.32:139][ 53]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 27, 2015, 2:20:32 PM)
+[2015.09.28-04.20.32:139][ 53]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2015.09.28-04.20.32:169][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029888s)
+[2015.09.28-04.20.32:170][ 53]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.09.28-04.20.32:170][ 53]LogPlayLevel: PIE: World Init took: (0.001257s)
+[2015.09.28-04.20.32:170][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031470s)
+[2015.09.28-04.20.32:202][ 53]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.28-04.20.32:224][ 53]LogInit: FAudioDevice initialized.
+[2015.09.28-04.20.32:275][ 53]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.09.28-04.20.32:286][ 53]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.09.27-21.20.32
+[2015.09.28-04.20.32:286][ 53]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.20.32:286][ 53]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.28-04.20.32:287][ 53]LogWorld: Bringing up level for play took: 0.008401
+[2015.09.28-04.20.32:288][ 53]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.204
+[2015.09.28-04.20.32:288][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.45:891][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.45:923][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2015.09.28-04.20.45:960][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6E1B5ACA0
+[2015.09.28-04.21.06:770][707]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.28-04.21.07:093][708]Cmd: QUIT_EDITOR
+[2015.09.28-04.21.07:621][708]LogExit: Preparing to exit.
+[2015.09.28-04.21.08:285][708]LogExit: Editor shut down
+[2015.09.28-04.21.08:285][708]LogExit: Transaction tracking system shut down
+[2015.09.28-04.21.08:286][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6D1C30EA0
+[2015.09.28-04.21.08:287][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C6E016B560
+[2015.09.28-04.21.08:287][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C685C7F880
+[2015.09.28-04.21.08:443][708]LogExit: Object subsystem successfully closed.
+[2015.09.28-04.21.08:459][708]LogD3D11RHI: Shutdown
+[2015.09.28-04.21.08:460][708]LogD3D11RHI: CleanupD3DDevice
+[2015.09.28-04.21.08:517][708]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.28-04.21.08:543][708]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2015.09.28-04.21.08:543][708]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2015.09.28-04.21.08:543][708]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2015.09.28-04.21.08:543][708]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2015.09.28-04.21.08:543][708]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module FoliageEdit (191)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module LandscapeEditor (190)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module ActorPickerMode (189)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module GeometryMode (188)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module TextureAlignMode (187)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module BspMode (186)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module PlacementMode (185)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module AutomationWorker (184)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module CharacterAI (183)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module SmartSnapping (182)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module ViewportSnapping (181)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module LogVisualizer (180)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (179)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module IntroTutorials (178)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (177)
+[2015.09.28-04.21.08:545][708]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (176)
+[2015.09.28-04.21.08:546][708]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (175)
+[2015.09.28-04.21.08:546][708]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (174)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (173)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (172)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (171)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module MergeActors (170)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module SizeMap (169)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module TreeMap (168)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module ReferenceViewer (167)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module LocalizationService (166)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (165)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module HardwareTargeting (164)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (163)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module UndoHistory (162)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (161)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module UserFeedback (160)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module XmlParser (159)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module Blutility (158)
+[2015.09.28-04.21.08:925][708]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (157)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (156)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module InputBindingEditor (155)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (154)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module SettingsEditor (153)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ProjectLauncher (152)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module SessionFrontend (151)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ProfilerClient (150)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (149)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module DeviceManager (148)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module AutomationController (147)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module AutomationWindow (146)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Layers (145)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (144)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module DetailCustomizations (143)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module PackagesDialog (142)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Persona (141)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Kismet (140)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module GraphEditor (139)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ClassViewer (138)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Toolbox (137)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module ModuleUI (136)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module MovieSceneTools (135)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module OutputLog (134)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module GammaUI (133)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Documentation (132)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (131)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (130)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module AnalyticsET (129)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module Analytics (128)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module AITestSuite (127)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module GameplayDebugger (126)
+[2015.09.28-04.21.08:926][708]LogModuleManager: Shutting down and abandoning module AIModule (125)
+[2015.09.28-04.21.08:927][708]LogModuleManager: Shutting down and abandoning module ProfilerService (124)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module TaskGraph (123)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module SubstanceEditor (122)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2015.09.28-04.21.09:175][708]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.09.28-04.21.09:219][708]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.09.28-04.21.09:220][708]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.09.28-04.21.09:221][708]LogModuleManager: Shutting down and abandoning module ContentBrowser (90)
+[2015.09.28-04.21.09:222][708]LogModuleManager: Shutting down and abandoning module Paper2DEditor (89)
+[2015.09.28-04.21.09:222][708]LogModuleManager: Shutting down and abandoning module UdpMessaging (88)
+[2015.09.28-04.21.09:322][708]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.09.28-04.21.09:325][708]LogModuleManager: Shutting down and abandoning module AssetRegistry (86)
+[2015.09.28-04.21.09:380][708]LogModuleManager: Shutting down and abandoning module SubstanceCore (85)
+[2015.09.28-04.21.09:380][708]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.09.28-04.21.09:380][708]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.09.28-04.21.09:380][708]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.09.28-04.21.09:383][708]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.09.28-04.21.09:383][708]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.09.28-04.21.09:384][708]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.09.28-04.21.09:386][708]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.09.28-04.21.09:387][708]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.09.28-04.21.09:506][708]LogDerivedDataCache: Shutdown
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.09.28-04.21.09:506][708]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.09.28-04.21.09:507][708]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.09.28-04.21.09:507][708]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.09.28-04.21.10:508][708]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.09.28-04.21.10:508][708]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.09.28-04.21.10:508][708]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.09.28-04.21.10:509][708]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.09.28-04.21.10:509][708]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.09.28-04.21.10:509][708]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.28-04.21.10:511][708]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.28-04.21.10:513][708]LogExit: Exiting.
+[2015.09.28-04.21.10:544][708]Log file closed, 09/27/15 21:21:10
